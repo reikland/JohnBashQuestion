@@ -132,7 +132,7 @@ def prompt_build_full(topic: str, proto: ProtoQuestion, start_d: date, end_d: da
         "- Avoid vague language such as 'significant', 'major', 'severe', 'substantial', unless tied to a precise numeric threshold or\n"
         "  to an explicit official category.\n\n"
         "Date wording (avoid ambiguity and tighten bounds):\n"
-        "- Avoid 'between' and 'by'. Use explicit 'after <DATE>', 'before <DATE>', 'on or before <DATE>'.\n"
+        "- Avoid 'between' and 'by'. Use explicit 'after <DATE>', 'before <DATE>'.\n"
         "- If referencing the resolution window, use: 'after the opening of this question and before [resolution date]'.\n"
         f"- If the event window is the UI window ({start_d.isoformat()}..{end_d.isoformat()} inclusive), prefer phrasing like: '{window_phrase}'.\n"
         "- Be explicit about inclusivity: e.g., 'on or before 2026-05-01' vs 'before 2026-05-01'.\n\n"
